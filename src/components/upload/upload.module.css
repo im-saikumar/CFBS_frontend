@@ -1,0 +1,78 @@
+.layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  background-color: #e0efea;
+  height: auto;
+  width: 500px;
+  border-radius: 12px;
+  padding: 35px 0;
+}
+
+.btn {
+  background-color: #445f3b;
+  height: 40px;
+  width: 150px;
+  color: aliceblue;
+  font-family: "Lexend Deca";
+  font-weight: 300;
+  font-size: 1rem;
+  border-width: 0;
+  border-radius: 3px;
+  margin: 10px 0;
+}
+
+textarea.lay {
+  height: 80px;
+}
+
+.lay {
+  box-sizing: border-box;
+  height: 40px;
+  width: 300px;
+  padding: 3px 15px;
+  font-weight: 300;
+  font-size: 1rem;
+  border: #445f3b solid 2px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.file {
+  opacity: 0;
+  width: 0.8px;
+  margin: 10px 0;
+  
+  /* padding: 10px 20px; */
+  /* box-sizing: border-box; */
+  /* background-color: rgb(255, 255, 255); */
+  /* border-radius: 5px; */
+}
+* {
+  text-transform: capitalize;
+}
+.upload {
+  padding: 10px 15px;
+  height: 100px;
+  width: 500px;
+  background-color: rgb(255, 255, 255);
+  color: #445f3b;
+  border-radius: 3px;
+}
+
+.upload:active{
+  background-color: #445f3b;
+  color: #e0efea;
+}
+
+@media (max-width: 1000px) {
+  .layout{
+    width: 50%;
+    height: 50%;
+    scale: 150%;
+  }
+}

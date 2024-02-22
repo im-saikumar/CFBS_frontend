@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lexend Deca';
+  font-size: 14px;
+  text-transform: none !important;
+  box-sizing: border-box;
+}
+
+.font-Nota{
+  font-family: 'Noto Serif', serif !important;
+}
+
+.text-warp {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+
+.font-200 { font-weight: 200}
+.font-300 { font-weight: 300}
+.font-400 { font-weight: 400}
+.font-500 { font-weight: 500}
+.font-600 { font-weight: 600}
+.font-700 { font-weight: 700}
+.font-800 { font-weight: 800}
+.font-900 { font-weight: 900}
+
+.font-white {color: #ffffff}
+.font-black {color: #000000}
+.font-grey  {color: #e2e2e2}
+
+.bg-white {background-color: #ffffff}
+.bg-primary {background-color: #ffffff}
+.bg-primary:hover {background-color: #f3f3f3}
+.bg-black {background-color: #000000}
+
+.text-center{text-align: center;}
+.text-left{text-align: left;}
+.text-right{text-align: right;}
+
+.text-justified {
+  text-align: justify;
+}
+
+.center{align-items: center;}
+.start{align-items: start;}
+.end{align-items: end;}
+
+.flex{display: flex;}
+
+.capitalize {text-transform: capitalize !important;}
+.uppercase {text-transform: uppercase !important;}
+.none { text-transform: none !important;}
+
+
+.heading      { font-size: 42px;}
+.sub-heading  { font-size: 24px;}
+.medium       { font-size: 20px;}
+.regular      {font-size: 14px;}
+
+
+.button{
+  min-width: 100px;
+  height: 40px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  cursor: pointer;
+  margin: 0 5px;
+  padding: 0 20px;
+  border-radius: 2px ;
+  /* border: none; */
+}
+
+.button_okay{
+  min-width: 100px;
+  height: 40px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  cursor: pointer;
+  margin: 0 5px;
+  padding: 0 20px;
+  border-radius: 2px ;
+}
+
+.buttonDis{
+  width: 100px;
+  height: 40px;
+  background-color: #f6f6f6;
+  border: none;
+  cursor: default;
+  margin: 0 5px;
+  border-radius: 2px ;
+  /* border: none; */
+}
+
+.reset{
+  width: 100px;
+  height: 40px;
+  background-color: #f6f6f6;
+  border: none;
+  cursor: pointer;
+  margin: 0 5px;
+  border-radius: 2px ;
+  /* border: none; */
+}
+
+.reset:hover{
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.button:hover{
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.link{
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1200px;
+  min-height: 95vh;
+  box-sizing: border-box;
+}
+
